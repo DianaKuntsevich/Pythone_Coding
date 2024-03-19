@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-from DB_client import create_flat_table, insert_flat
+from db_client import create_flat_table, insert_flat
 
 URL = 'https://realt.by/sale/flats/'
 HEADERS = {
